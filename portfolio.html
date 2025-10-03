@@ -8,10 +8,18 @@
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html" class="active">Portfolio</a>
-    <a href="contact.html">Contact</a>
-    <button id="mode-toggle">🌙</button>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Home</a>
+      <button id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span class="hamburger"></span>
+      </button>
+      <div id="nav-links" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <button id="mode-toggle">🌙</button>
+      </div>
+    </div>
   </nav>
 
   <section class="portfolio">
@@ -44,42 +52,42 @@
     <!-- Portfolio Cards with Images -->
     <div class="cards">
       <!-- Wix Projects -->
-      <div class="card" data-category="wix">
+      <a class="card" data-category="wix" href="wix1.html">
         <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Wix Website 1" loading="lazy">
         <div class="card-title">Wix Website 1</div>
-      </div>
-      <div class="card" data-category="wix">
+      </a>
+      <a class="card" data-category="wix" href="wix2.html">
         <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Wix Website 2" loading="lazy">
         <div class="card-title">Wix Website 2</div>
-      </div>
-      <div class="card" data-category="wix">
+      </a>
+      <a class="card" data-category="wix" href="wix3.html">
         <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Wix Website 3" loading="lazy">
         <div class="card-title">Wix Website 3</div>
-      </div>
+      </a>
 
       <!-- Webflow Projects -->
-      <div class="card" data-category="webflow">
+      <a class="card" data-category="webflow" href="webflow1.html">
         <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Webflow Website 1" loading="lazy">
         <div class="card-title">Webflow Website 1</div>
-      </div>
-      <div class="card" data-category="webflow">
+      </a>
+      <a class="card" data-category="webflow" href="webflow2.html">
         <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Webflow Website 2" loading="lazy">
         <div class="card-title">Webflow Website 2</div>
-      </div>
-      <div class="card" data-category="webflow">
+      </a>
+      <a class="card" data-category="webflow" href="webflow3.html">
         <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3a8b?auto=format&fit=crop&w=400&q=80" alt="Webflow Website 3" loading="lazy">
         <div class="card-title">Webflow Website 3</div>
-      </div>
+      </a>
 
       <!-- React Projects -->
-      <div class="card" data-category="react">
+      <a class="card" data-category="react" href="react1.html">
         <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="React Project 1" loading="lazy">
         <div class="card-title">React Project 1</div>
-      </div>
-      <div class="card" data-category="react">
+      </a>
+      <a class="card" data-category="react" href="react2.html">
         <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="React Project 2" loading="lazy">
         <div class="card-title">React Project 2</div>
-      </div>
+      </a>
     </div>
   </section>
 
